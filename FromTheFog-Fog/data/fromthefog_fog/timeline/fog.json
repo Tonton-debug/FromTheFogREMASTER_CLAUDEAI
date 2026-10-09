@@ -4,23 +4,21 @@
   "tracks": {
     "minecraft:visual/fog_start_distance": {
       "keyframes": [
-        { "ticks": 0, "value": 0.15 },
-        { "ticks": 11500, "value": 0.15 },
-        { "ticks": 13500, "value": 0.05 },
-        { "ticks": 22500, "value": 0.05 },
-        { "ticks": 23999, "value": 0.15 }
-      ],
-      "modifier": "multiply"
+        { "ticks": 0, "value": 2.0 },
+        { "ticks": 11500, "value": 2.0 },
+        { "ticks": 13500, "value": 1.0 },
+        { "ticks": 22500, "value": 1.0 },
+        { "ticks": 23999, "value": 2.0 }
+      ]
     },
     "minecraft:visual/fog_end_distance": {
       "keyframes": [
-        { "ticks": 0, "value": 0.45 },
-        { "ticks": 11500, "value": 0.45 },
-        { "ticks": 13500, "value": 0.28 },
-        { "ticks": 22500, "value": 0.28 },
-        { "ticks": 23999, "value": 0.45 }
-      ],
-      "modifier": "multiply"
+        { "ticks": 0, "value": 8.0 },
+        { "ticks": 11500, "value": 8.0 },
+        { "ticks": 13500, "value": 4.0 },
+        { "ticks": 22500, "value": 4.0 },
+        { "ticks": 23999, "value": 8.0 }
+      ]
     }
   }
 }
