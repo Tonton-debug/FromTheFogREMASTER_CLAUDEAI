@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "light_netherrack": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:netherrack"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["minecraft:flint_and_steel", "minecraft:fire_charge"]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["light_netherrack"]],
+  "rewards": {
+    "function": "fromthefog:shrine/check"
+  }
+}
