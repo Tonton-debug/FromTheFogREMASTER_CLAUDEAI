@@ -1,0 +1,2 @@
+$execute if score #$(key) ftf.config matches 1 run tellraw @s [{text:" $(label): ",color:"gray"},{text:"[ВКЛ]",color:"green",click_event:{action:"run_command",command:"/function fromthefog:config/toggle {key:\"$(key)\"}"},hover_event:{action:"show_text",value:"Нажми, чтобы выключить"}}]
+$execute unless score #$(key) ftf.config matches 1 run tellraw @s [{text:" $(label): ",color:"gray"},{text:"[ВЫКЛ]",color:"red",click_event:{action:"run_command",command:"/function fromthefog:config/toggle {key:\"$(key)\"}"},hover_event:{action:"show_text",value:"Нажми, чтобы включить"}}]

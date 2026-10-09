@@ -1,0 +1,11 @@
+{
+  "pack": {
+    "description": [
+      {"text": "From The Fog ", "color": "gray"},
+      {"text": "— густой туман", "color": "dark_gray"}
+    ],
+    "pack_format": 107,
+    "min_format": [107, 1],
+    "max_format": 107
+  }
+}
