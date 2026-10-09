@@ -6,8 +6,8 @@
       "keyframes": [
         { "ticks": 0, "value": 2.0 },
         { "ticks": 11500, "value": 2.0 },
-        { "ticks": 13500, "value": 1.0 },
-        { "ticks": 22500, "value": 1.0 },
+        { "ticks": 13500, "value": 1.5 },
+        { "ticks": 22500, "value": 1.5 },
         { "ticks": 23999, "value": 2.0 }
       ]
     },
@@ -15,8 +15,8 @@
       "keyframes": [
         { "ticks": 0, "value": 8.0 },
         { "ticks": 11500, "value": 8.0 },
-        { "ticks": 13500, "value": 4.0 },
-        { "ticks": 22500, "value": 4.0 },
+        { "ticks": 13500, "value": 6.0 },
+        { "ticks": 22500, "value": 6.0 },
         { "ticks": 23999, "value": 8.0 }
       ]
     }
