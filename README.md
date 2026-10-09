@@ -14,9 +14,22 @@
 | `FromTheFog-Resources/` | Ресурспак со скином Херобрина (белые глаза) | да, иначе вместо скина будет «нет текстуры» |
 | `FromTheFog-Fog/` | Дополнительный датапак: густой туман в Верхнем мире (ночью гуще) | по желанию |
 
+## Готовые архивы
+
+Собранные архивы лежат в папке [`dist/`](dist/):
+
+| Файл | Куда класть |
+|---|---|
+| `FromTheFog-26.2.zip` | `world/datapacks/` |
+| `FromTheFog-Fog-26.2.zip` | `world/datapacks/` (по желанию) |
+| `FromTheFog-Resources-26.2.zip` | `resourcepacks/` или `resource-pack=` в `server.properties` |
+
+SHA-1 ресурспака для `resource-pack-sha1`: `17a2c4cf36758d10ad3834180e8aadf7b4269177`.
+Если пересобираете архив, посчитайте хэш заново.
+
 ## Установка
 
-1. Запустите `./build.sh` (нужен `zip`) или заархивируйте каждую папку вручную. Внутри архива
+1. Возьмите готовые архивы из `dist/` или соберите их сами: `./build.sh` (нужен `zip`). Внутри архива
    `pack.mcmeta` должен лежать в корне.
 2. `FromTheFog-26.2.zip` и, по желанию, `FromTheFog-Fog-26.2.zip` положите в `saves/<мир>/datapacks/`.
 3. `FromTheFog-Resources-26.2.zip` положите в `resourcepacks/` и включите в настройках.
